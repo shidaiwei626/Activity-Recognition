@@ -1,0 +1,17 @@
+# Virtual environment stuff
+bin/
+include/
+lib/
+pyvenv.cfg
+
+# pip
+pip-selfcheck.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+share/
+
+input
+output
+LightGBM
+.DS_Store
