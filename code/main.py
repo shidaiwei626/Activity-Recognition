@@ -8,14 +8,14 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 
 from sklearn.metrics import classification_report, accuracy_score
 
-def read_train(file_name='input/train.csv'):
+def read_train(file_name='../input/train.csv'):
     print('Reading in training set...')
     train_df = pd.read_csv(file_name)
     print('Training set dimensionality: (%i, %i).\n' % train_df.shape)
 
     return train_df
 
-def read_test(file_name='input/'):
+def read_test(file_name='../input/'):
     print('Reading in testing set...')
     test_df = pd.read_csv('input/test.csv')
     print('Testing set dimensionality: (%i, %i).\n' % test_df.shape)
