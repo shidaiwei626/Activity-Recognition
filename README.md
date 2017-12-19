@@ -17,3 +17,5 @@ Topics covered in the code include
 - Quadratic Discriminant Analysis
 - LightGBM
 - XGBoost
+
+## Model Selection and Hyperparameter Tuning using Grid Search
